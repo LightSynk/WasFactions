@@ -390,8 +390,16 @@ html {
     document.getElementById('discord-block').addEventListener('click', function() {
         window.open('https://discord.gg/JAGKSeCfE4', '_blank');
     });
+
+<script>
+if (!window.location.href.endsWith("index.html")) {
+    window.location.href = "index.html";
+}
+</script>
+
 </script>
 </body>
 
 </html>
+
 
